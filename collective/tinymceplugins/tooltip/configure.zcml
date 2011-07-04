@@ -1,0 +1,31 @@
+<configure
+      xmlns="http://namespaces.zope.org/zope"
+      xmlns:five="http://namespaces.zope.org/five"
+      xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+      xmlns:cmf="http://namespaces.zope.org/cmf"
+      i18n_domain="collective.tinymceplugins.tooltip">
+
+
+    <five:registerPackage package="." initialize=".initialize" />
+
+    <!-- <include package=".browser" /> -->
+
+    <!-- <adapter -->
+    <!--       for="Products.ATContentTypes.interface.IATFile" -->
+    <!--       provides="Products.TinyMCE.adapters.interfaces.JSONDetails.IJSONDetails" -->
+    <!--       factory=".adapters.JSONDetails" -->
+    <!--       /> -->
+
+    <cmf:registerDirectory
+          name="tinymce_plugin_tooltip"
+          recursive="True"/>
+
+    <genericsetup:registerProfile
+          name="default"
+          title="collective.tinymceplugins.tooltip"
+          directory="profiles/default"
+          description="Installs the collective.tinymceplugins.tooltip package"
+          provides="Products.GenericSetup.interfaces.EXTENSION"
+          />
+
+</configure>
