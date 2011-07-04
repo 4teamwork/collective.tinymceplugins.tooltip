@@ -9,4 +9,10 @@
 
     </resourcetypes>
 
+    <toolbar>
+        <customtoolbarbuttons purge="False">
+            <element value="tinymce_tooltip"/>
+        </customtoolbarbuttons>
+    </toolbar>
+
 </object>
