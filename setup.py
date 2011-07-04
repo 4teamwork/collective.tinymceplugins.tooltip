@@ -6,7 +6,7 @@ version = '1.0-dev'
 setup(name='collective.tinymceplugins.tooltip',
       version=version,
       description="TinyMCE plugin for creating tooltips on text",
-      long_description=open("README.txt").read() + "\n" + \
+      long_description=open("README.rst").read() + "\n" + \
           open(os.path.join("docs", "HISTORY.txt")).read(),
 
       classifiers=[
