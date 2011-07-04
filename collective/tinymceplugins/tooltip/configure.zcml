@@ -3,7 +3,6 @@
       xmlns:five="http://namespaces.zope.org/five"
       xmlns:browser="http://namespaces.zope.org/browser"
       xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
-      xmlns:cmf="http://namespaces.zope.org/cmf"
       i18n_domain="collective.tinymceplugins.tooltip">
 
 
@@ -13,10 +12,6 @@
           name="collective.tinymceplugins.tooltip"
           directory="plugin"
           />
-
-    <cmf:registerDirectory
-          name="tinymce_plugin_tooltip"
-          recursive="True"/>
 
     <genericsetup:registerProfile
           name="default"
