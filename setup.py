@@ -30,6 +30,7 @@ setup(name='collective.tinymceplugins.tooltip',
       install_requires=[
         'setuptools',
         'Products.TinyMCE',
+        'plone.app.jquerytools',
         ],
 
       entry_points="""
