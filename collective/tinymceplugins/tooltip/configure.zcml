@@ -1,6 +1,7 @@
 <configure
       xmlns="http://namespaces.zope.org/zope"
       xmlns:five="http://namespaces.zope.org/five"
+      xmlns:browser="http://namespaces.zope.org/browser"
       xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
       xmlns:cmf="http://namespaces.zope.org/cmf"
       i18n_domain="collective.tinymceplugins.tooltip">
@@ -8,13 +9,10 @@
 
     <five:registerPackage package="." initialize=".initialize" />
 
-    <!-- <include package=".browser" /> -->
-
-    <!-- <adapter -->
-    <!--       for="Products.ATContentTypes.interface.IATFile" -->
-    <!--       provides="Products.TinyMCE.adapters.interfaces.JSONDetails.IJSONDetails" -->
-    <!--       factory=".adapters.JSONDetails" -->
-    <!--       /> -->
+    <browser:resourceDirectory
+          name="collective.tinymceplugins.tooltip"
+          directory="plugin"
+          />
 
     <cmf:registerDirectory
           name="tinymce_plugin_tooltip"

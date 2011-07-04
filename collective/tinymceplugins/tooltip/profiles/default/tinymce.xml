@@ -4,7 +4,7 @@
     <resourcetypes purge="False">
 
         <customplugins purge="False">
-            <element value="tinymce_tooltip"/>
+            <element value="tinymce_tooltip|/++resource++collective.tinymceplugins.tooltip/editor_plugin.js"/>
         </customplugins>
 
     </resourcetypes>
@@ -14,5 +14,5 @@
             <element value="tinymce_tooltip"/>
         </customtoolbarbuttons>
     </toolbar>
-
+    -
 </object>
