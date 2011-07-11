@@ -3,7 +3,7 @@
         autogroup="False">
 
     <javascript
-          id="++resource++collective.tinymceplugins.tooltip/rendertooltips.js"
+          id="++resource++collective.tinymceplugins.tooltip-rendertooltips.js"
           cacheable="True"
           compression="safe"
           cookable="True"
