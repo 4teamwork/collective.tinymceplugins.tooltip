@@ -23,11 +23,6 @@
           name="collective.tinymceplugins.tooltip-rendertooltips.css"
           />
 
-    <browser:resource
-          file="resources/black_arrow.png"
-          name="collective.tinymceplugins.tooltip-black_arrow.png"
-          />
-
     <genericsetup:registerProfile
           name="default"
           title="collective.tinymceplugins.tooltip"
