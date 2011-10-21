@@ -13,4 +13,8 @@
           insert-after="++resource++plone.app.jquerytools.plugins.js"
           />
 
+    <javascript authenticated="False" cacheable="True" compression="none"
+        conditionalcomment="" cookable="True" enabled="True" expression=""
+        id="++resource++plone.app.jquerytools.plugins.js" inline="False"/>
+
 </object>
