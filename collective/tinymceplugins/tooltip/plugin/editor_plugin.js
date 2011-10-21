@@ -6,7 +6,6 @@
   tinymce.create('tinymce.plugins.Tooltip', {
     init : function(ed, url) {
       this.editor = ed;
-      console.log('LOADING TOOLTIP');
 
       // Register commands
       ed.addCommand('mceTooltip', function() {
