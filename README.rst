@@ -48,13 +48,16 @@ tooltip icon and enter a tooltip text. After saving, the text will
 appear when hovering the previously selected text.
 
 
-Credits
-=======
 
-Sponsered by `4teamwork`_.
+Links
+=====
 
- * `Jonas Baumann`_, author
+- Main github project repository: https://github.com/4teamwork/collective.tinymceplugins.tooltip
+- Issue tracker: https://github.com/4teamwork/collective.tinymceplugins.tooltip/issues
+- Package on pypi: http://pypi.python.org/pypi/collective.tinymceplugins.tooltip
 
 
-.. _`4teamwork`: http://www.4teamwork.ch/
-.. _`Jonas Baumann`: http://github.com/jone
+Maintainer
+==========
+
+This package is produced and maintained by `4teamwork <http://www.4teamwork.ch/>`_ company.

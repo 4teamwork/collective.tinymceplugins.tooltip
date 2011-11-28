@@ -16,7 +16,7 @@ setup(name='collective.tinymceplugins.tooltip',
         ],
 
       keywords='tinymce plugin tooltip',
-      author='Jonas Baumann, 4teamwork.ch',
+      author='4teamwork GmbH',
       author_email='mailto:info@4teamwork.ch',
 
       url='http://github.com/4teamwork/collective.tinymceplugins.tooltip',
