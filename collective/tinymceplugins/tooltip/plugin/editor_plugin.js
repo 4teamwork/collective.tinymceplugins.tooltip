@@ -34,7 +34,7 @@
       ed.addButton('tinymce_tooltip', {
         title : 'advanced.tooltip_desc',
         cmd : 'mceTooltip',
-        image: url + '/img/tooltip.gif'
+        img : ''
       });
 
       ed.onNodeChange.add(function(ed, cm, n, co) {

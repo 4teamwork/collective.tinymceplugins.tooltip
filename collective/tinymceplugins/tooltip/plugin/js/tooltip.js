@@ -1,10 +1,10 @@
-tinyMCEPopup.requireLangPack();
 
 var TooltipDialog = {
-  init : function(ed) {
+  init : function(mcePopup) {
     var action, elm, f = document.forms[0];
 
-    this.editor = ed;
+    this.tinyMCEPopup = mcePopup;
+    this.editor = mcePopup.editor;
     elm = ed.dom.getParent(ed.selection.getNode(), 'span');
     v = ed.dom.getAttrib(elm, 'title');
 
@@ -19,7 +19,7 @@ var TooltipDialog = {
   update : function() {
     var ed = this.editor, elm, tooltip = document.forms[0].tooltipName.value;
 
-    tinyMCEPopup.restoreSelection();
+    this.tinyMCEPopup.restoreSelection();
 
     elm = ed.dom.getParent(ed.selection.getNode(), 'span');
 
@@ -30,8 +30,8 @@ var TooltipDialog = {
         b = ed.selection.getBookmark();
         ed.dom.remove(elm, 1);
         ed.selection.moveToBookmark(b);
-        tinyMCEPopup.execCommand("mceEndUndoLevel");
-        tinyMCEPopup.close();
+        this.tinyMCEPopup.execCommand("mceEndUndoLevel");
+        this.tinyMCEPopup.close();
         return;
       }
     }
@@ -57,8 +57,8 @@ var TooltipDialog = {
                        ed.selection.getContent({format : 'text'})));
     }
 
-    tinyMCEPopup.close();
+    this.tinyMCEPopup.close();
   }
 };
 
-tinyMCEPopup.onInit.add(TooltipDialog.init, TooltipDialog);
+this.tinyMCEPopup.onInit.add(TooltipDialog.init, TooltipDialog);

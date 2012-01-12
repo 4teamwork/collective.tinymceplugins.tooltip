@@ -1,3 +1,7 @@
+.ploneSkin span.mce_tinymce_tooltip{
+	background: url("++resource++collective.tinymceplugins.tooltip/img/tooltip.png") no-repeat center center;
+}
+
 div.tooltip {
   display: none;
   padding: 0.4em 0.5em 0.4em 0.5em;
