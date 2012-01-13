@@ -28,5 +28,5 @@ jQuery(document).ready(function($) {
       '<div class="tooltip-arrow"></div></div>',
     delay: 200,
     effect: 'tooltip_with_arrow',
-  }).dynamic();
+  });
 });
