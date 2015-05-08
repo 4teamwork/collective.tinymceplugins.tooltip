@@ -52,9 +52,9 @@ appear when hovering the previously selected text.
 Links
 =====
 
-- Main github project repository: https://github.com/4teamwork/collective.tinymceplugins.tooltip
-- Issue tracker: https://github.com/4teamwork/collective.tinymceplugins.tooltip/issues
-- Package on pypi: http://pypi.python.org/pypi/collective.tinymceplugins.tooltip
+- Github: https://github.com/4teamwork/collective.tinymceplugins.tooltip
+- Issues: https://github.com/4teamwork/collective.tinymceplugins.tooltip/issues
+- Pypi: http://pypi.python.org/pypi/collective.tinymceplugins.tooltip
 
 
 Copyright
